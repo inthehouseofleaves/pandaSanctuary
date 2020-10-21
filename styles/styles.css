@@ -1,0 +1,516 @@
+html {
+  line-height: 1.15;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+}
+
+article, aside, footer, header, nav, section {
+  display: block;
+}
+
+h1 {
+  font-size: 2em;
+  margin: .67em 0;
+}
+
+figcaption, figure, main {
+  display: block;
+}
+
+figure {
+  margin: 1em 40px;
+}
+
+hr {
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
+  height: 0;
+  overflow: visible;
+}
+
+pre {
+  font-family: monospace,monospace;
+  font-size: 1em;
+}
+
+a {
+  background-color: transparent;
+  -webkit-text-decoration-skip: objects;
+}
+
+abbr[title] {
+  border-bottom: none;
+  text-decoration: underline;
+  -webkit-text-decoration: underline dotted;
+          text-decoration: underline dotted;
+}
+
+b, strong {
+  font-weight: inherit;
+}
+
+b, strong {
+  font-weight: bolder;
+}
+
+code, kbd, samp {
+  font-family: monospace,monospace;
+  font-size: 1em;
+}
+
+dfn {
+  font-style: italic;
+}
+
+mark {
+  background-color: #ff0;
+  color: #000;
+}
+
+small {
+  font-size: 80%;
+}
+
+sub, sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sub {
+  bottom: -.25em;
+}
+
+sup {
+  top: -.5em;
+}
+
+audio, video {
+  display: inline-block;
+}
+
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+img {
+  border-style: none;
+}
+
+svg:not(:root) {
+  overflow: hidden;
+}
+
+button, input, optgroup, select, textarea {
+  font-family: sans-serif;
+  font-size: 100%;
+  line-height: 1.15;
+  margin: 0;
+}
+
+button, input {
+  overflow: visible;
+}
+
+button, select {
+  text-transform: none;
+}
+
+button, html [type=button], [type=reset], [type=submit] {
+  -webkit-appearance: button;
+}
+
+button::-moz-focus-inner, [type=button]::-moz-focus-inner, [type=reset]::-moz-focus-inner, [type=submit]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+button:-moz-focusring, [type=button]:-moz-focusring, [type=reset]:-moz-focusring, [type=submit]:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+
+fieldset {
+  padding: .35em .75em .625em;
+}
+
+legend {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  color: inherit;
+  display: table;
+  max-width: 100%;
+  padding: 0;
+  white-space: normal;
+}
+
+progress {
+  display: inline-block;
+  vertical-align: baseline;
+}
+
+textarea {
+  overflow: auto;
+}
+
+[type=checkbox], [type=radio] {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0;
+}
+
+[type=number]::-webkit-inner-spin-button, [type=number]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+[type=search] {
+  -webkit-appearance: textfield;
+  outline-offset: -2px;
+}
+
+[type=search]::-webkit-search-cancel-button, [type=search]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  font: inherit;
+}
+
+details, menu {
+  display: block;
+}
+
+summary {
+  display: list-item;
+}
+
+canvas {
+  display: inline-block;
+}
+
+template {
+  display: none;
+}
+
+[hidden] {
+  display: none;
+}
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: '';
+  clear: both;
+  height: 0;
+}
+
+html {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  -webkit-clip-path: inset(100%);
+          clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+h1 {
+  line-height: 63.7px;
+  font-size: 68.8px;
+  letter-spacing: 0.8px;
+  font-family: "Barlow", sans-serif;
+  font-weight: lighter;
+  margin: 0;
+}
+
+h2, h3, h4, h5, h6 {
+  font-family: "Offside", cursive;
+  text-align: center;
+}
+
+nav {
+  font-family: "Barlow", sans-serif;
+  line-height: 29px;
+}
+
+body {
+  font-family: "Barlow", sans-serif;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.2px;
+}
+
+.logo {
+  font-family: "Offside", cursive;
+  line-height: 20px;
+}
+
+button {
+  font-family: "Offside", cursive;
+  font-size: 20px;
+  text-align: center;
+  line-height: 29px;
+  padding: 0.4rem 0.6rem;
+  border: none;
+}
+
+button:hover, button:focus {
+  color: #2C2D2C;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  margin: 0 auto;
+  width: 90%;
+  max-width: 1200px;
+}
+
+header {
+  background-image: url(../assets/header-image.png);
+  background-size: cover;
+  background-position: center;
+  padding: 0;
+  color: #FFFFFF;
+  height: 80vh;
+}
+
+header .headerContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 2rem 0;
+}
+
+header nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 10%;
+}
+
+header ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+header li {
+  list-style-type: none;
+  margin-left: 2rem;
+}
+
+header a {
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+header a:hover, header a:focus {
+  color: #116500;
+}
+
+header .headerBody {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 2rem;
+  width: 100%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+header h1 {
+  width: 35%;
+}
+
+header .socials {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+header i {
+  margin-top: 0.5rem;
+}
+
+.about {
+  padding: 5rem 0;
+  background-color: #D6F1E4;
+}
+
+.about .aboutGallery,
+.about .aboutText {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.about .aboutGallery {
+  margin: 5rem 0;
+}
+
+.about .imgContainer,
+.about .aboutImage {
+  background-image: url(../assets/small-box@2x.png);
+  background-size: cover;
+  background-position: center;
+  width: calc(100vw / 3);
+  height: calc(100vw / 4);
+  margin-right: 2rem;
+}
+
+.about .imgContainer:nth-child(1) {
+  background-image: url(../assets/gallery-image-1@2x.png);
+}
+
+.about .imgContainer:nth-child(2) {
+  background-image: url(../assets/gallery-image-2@2x.png);
+}
+
+.about .imgContainer:nth-child(3) {
+  background-image: url(../assets/gallery-image-3@2x.png);
+  margin-right: 0;
+}
+
+.about .more {
+  width: 90%;
+}
+
+.about p {
+  margin: 2rem 0;
+}
+
+.about button {
+  background-color: #116500;
+  color: #FFFFFF;
+}
+
+.meetOurPandas {
+  background-color: #213C28;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  color: #FFFFFF;
+}
+
+.meetOurPandas .sectionOne,
+.meetOurPandas .sectionTwo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.meetOurPandas .info,
+.meetOurPandas .pandaPhoto {
+  width: 50%;
+}
+
+.meetOurPandas .info {
+  padding: 0 5%;
+}
+
+.meetOurPandas .pandaPhoto {
+  background-size: cover;
+  background-position: center;
+  height: calc(100vw / 2);
+}
+
+.meetOurPandas p {
+  margin: 1.5rem 0;
+}
+
+.meetOurPandas button {
+  color: #116500;
+  background-color: white;
+}
+
+.meetOurPandas .sectionOne .pandaPhoto {
+  background-image: url(../assets/pascal-muller-4-eaj-iu-uxg-aq-unsplash@2x.png);
+}
+
+.meetOurPandas .sectionTwo .pandaPhoto {
+  background-image: url(../assets/debbie-molle-6-dsid-8-ey-9-u-unsplash-1@2x.png);
+}
+
+.more {
+  background-color: #D6F1E4;
+  padding: 5rem 0;
+}
+
+.more .moreContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.more a {
+  text-decoration: none;
+  color: #116500;
+}
+
+.more a:hover, .more a:focus {
+  color: #2C2D2C;
+}
+
+.more i {
+  color: #2C2D2C;
+}

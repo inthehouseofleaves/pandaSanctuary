@@ -1,0 +1,238 @@
+@import "setup";
+
+// FONT
+
+$baseFont: 'Barlow', sans-serif;
+$fancyFont: 'Offside', cursive;
+$lightBackground: #D6F1E4;
+$darkBackground: #213C28;
+$lightFont: #FFFFFF;
+$mediumFont: #116500;
+$darkFont: #2C2D2C;
+
+// PSD QUALIFICATIONS
+
+h1 {
+  line-height: 63.7px;
+  font-size: 68.8px;
+  letter-spacing: 0.8px;
+  font-family: $baseFont;
+  font-weight: lighter;
+  margin: 0;
+}
+
+h2, h3, h4, h5, h6 {
+  font-family: $fancyFont;
+  text-align: center;
+}
+
+nav {
+  font-family: $baseFont;
+  line-height: 29px;
+}
+
+body {
+  font-family: $baseFont;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.2px;
+}
+
+.logo {
+  font-family: $fancyFont;
+  line-height: 20px;
+}
+
+button {
+  font-family: $fancyFont;
+  font-size: 20px;
+  text-align: center;
+  line-height: 29px;
+  padding: 0.4rem 0.6rem;
+  border: none;
+  &:hover,
+  &:focus {
+    color: $darkFont;
+  }
+}
+
+// UNIVERSAL
+
+* {
+  margin: 0;
+  padding: 0
+}
+
+.wrapper {
+  margin: 0 auto;
+  width: 90%;
+  max-width: 1200px;
+}
+
+
+// HEADER
+
+header {
+  background-image: url(../assets/header-image.png);
+  background-size: cover;
+  background-position: center;
+  padding: 0;
+  color: $lightFont;
+  height: 80vh;
+  // Header Container
+  .headerContainer {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 0;
+  }
+  // Nav
+  nav {
+    display: flex;
+    justify-content: space-between;
+    height: 10%;
+  }
+  ul {
+    display: flex;
+  }
+  li {
+    list-style-type: none;
+    margin-left: 2rem;
+  }
+  a {
+    text-decoration: none;
+    color: $lightFont;
+    &:hover,
+    &:focus {
+      color: $mediumFont;
+    }
+  }
+  // Header Body
+  .headerBody {
+    display: flex;
+    margin-top: 2rem;
+    width: 100%;
+    justify-content: space-between;
+  }
+  h1 {
+      width: 35%;
+    }
+  // Socials
+  .socials {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.5rem;
+    text-align: center;
+  }
+  i {
+    margin-top: 0.5rem;
+  }
+}
+
+
+// ABOUT
+
+.about {
+  padding: 5rem 0;
+  background-color: $lightBackground;
+  .aboutGallery,
+  .aboutText {
+    display: flex;
+  }
+  .aboutGallery {
+    margin: 5rem 0;
+  }
+  .imgContainer,
+  .aboutImage {
+    background-image: url(../assets/small-box@2x.png);
+    background-size: cover;
+    background-position: center;
+    width: calc(100vw / 3);
+    height: calc(100vw / 4);
+    margin-right: 2rem;
+  }
+  .imgContainer:nth-child(1) {
+    background-image: url(../assets/gallery-image-1@2x.png);
+  }
+  .imgContainer:nth-child(2) {
+    background-image: url(../assets/gallery-image-2@2x.png);
+  }
+  .imgContainer:nth-child(3) {
+    background-image: url(../assets/gallery-image-3@2x.png);
+    margin-right: 0;
+  }
+  .more {
+    width: 90%;
+  }
+  p {
+    margin: 2rem 0;
+  }
+  button {
+    background-color: $mediumFont;
+    color: $lightFont;
+  }
+}
+
+// MEET OUR PANDAS
+
+.meetOurPandas {
+  background-color: $darkBackground;
+  display: flex;
+  flex-direction: column;
+  color: $lightFont;
+  .sectionOne,
+  .sectionTwo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .info,
+  .pandaPhoto {
+    width: 50%;
+  }
+  .info {
+    padding: 0 5%;
+  }
+  .pandaPhoto {
+    background-size: cover;
+    background-position: center;
+    height: calc(100vw / 2);
+  }
+  p {
+    margin: 1.5rem 0;
+  }
+  button {
+    color: $mediumFont;
+    background-color: white;
+  }
+  .sectionOne .pandaPhoto {
+    background-image: url(../assets/pascal-muller-4-eaj-iu-uxg-aq-unsplash@2x.png); 
+  }
+  .sectionTwo .pandaPhoto {
+    background-image: url(../assets/debbie-molle-6-dsid-8-ey-9-u-unsplash-1@2x.png);
+  }
+}
+
+// MORE 
+
+.more {
+  background-color: $lightBackground;
+  padding: 5rem 0;
+  .moreContainer {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    align-items: center;
+  }
+  a {
+    text-decoration: none;
+    color: $mediumFont;
+    &:hover,
+    &:focus {
+      color: $darkFont;
+    }
+  }
+  i {
+    color: $darkFont;
+  }
+}
