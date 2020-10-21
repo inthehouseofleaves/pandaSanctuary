@@ -1,0 +1,22 @@
+// MORE 
+
+.more {
+  background-color: $lightBackground;
+  padding: 5rem 0;
+  .moreContainer {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    align-items: center;
+  }
+  a {
+    color: $mediumFont;
+    &:hover,
+    &:focus {
+      color: $accent;
+    }
+  }
+  i {
+    color: $accent;
+  }
+}

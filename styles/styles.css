@@ -235,6 +235,25 @@ html {
   overflow: hidden;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  margin: 0 auto;
+  width: 90%;
+  max-width: 1200px;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
 h1 {
   line-height: 63.7px;
   font-size: 68.8px;
@@ -244,9 +263,13 @@ h1 {
   margin: 0;
 }
 
-h2, h3, h4, h5, h6 {
+h2, h3 {
   font-family: "Offside", cursive;
   text-align: center;
+}
+
+h4 {
+  font-family: "Offside", cursive;
 }
 
 nav {
@@ -271,23 +294,13 @@ button {
   font-size: 20px;
   text-align: center;
   line-height: 29px;
-  padding: 0.4rem 0.6rem;
+  padding: 0.3rem 0.5rem;
   border: none;
+  text-transform: uppercase;
 }
 
 button:hover, button:focus {
   color: #2C2D2C;
-}
-
-* {
-  margin: 0;
-  padding: 0;
-}
-
-.wrapper {
-  margin: 0 auto;
-  width: 90%;
-  max-width: 1200px;
 }
 
 header {
@@ -296,7 +309,7 @@ header {
   background-position: center;
   padding: 0;
   color: #FFFFFF;
-  height: 80vh;
+  height: 100vh;
 }
 
 header .headerContainer {
@@ -327,12 +340,10 @@ header ul {
 }
 
 header li {
-  list-style-type: none;
   margin-left: 2rem;
 }
 
 header a {
-  text-decoration: none;
   color: #FFFFFF;
 }
 
@@ -503,7 +514,6 @@ header i {
 }
 
 .more a {
-  text-decoration: none;
   color: #116500;
 }
 
@@ -513,4 +523,158 @@ header i {
 
 .more i {
   color: #2C2D2C;
+}
+
+.contact {
+  background-color: #213C28;
+  padding: 5rem 0;
+  color: #FFFFFF;
+  text-align: left;
+}
+
+.contact .contactContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.contact .subscribe {
+  width: 50%;
+}
+
+.contact .subscribe p {
+  margin: 0.5rem 0;
+}
+
+.contact form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.contact input {
+  width: 75%;
+  padding-left: 1rem;
+}
+
+.contact button {
+  width: 25%;
+  background-color: #2C2D2C;
+  color: #FFFFFF;
+}
+
+.contact .contactInfo {
+  width: 30%;
+}
+
+.contact .contactInfo p:nth-of-type(1) {
+  margin-top: 0.5rem;
+}
+
+.contact nav {
+  width: 10%;
+  text-align: right;
+}
+
+.contact a {
+  color: #FFFFFF;
+  font-family: "Offside", cursive;
+  text-transform: lowercase;
+}
+
+footer {
+  background-color: #2C2D2C;
+  text-align: center;
+  padding: 0.5rem;
+}
+
+footer li {
+  list-style-type: none;
+}
+
+footer a {
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+header {
+  background-image: url(../assets/header-image.png);
+  background-size: cover;
+  background-position: center;
+  padding: 0;
+  color: #FFFFFF;
+  height: 100vh;
+}
+
+header .headerContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 2rem 0;
+}
+
+header nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 10%;
+}
+
+header ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+header li {
+  margin-left: 2rem;
+}
+
+header a {
+  color: #FFFFFF;
+}
+
+header a:hover, header a:focus {
+  color: #116500;
+}
+
+header .headerBody {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 2rem;
+  width: 100%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+header h1 {
+  width: 35%;
+}
+
+header .socials {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+header i {
+  margin-top: 0.5rem;
 }

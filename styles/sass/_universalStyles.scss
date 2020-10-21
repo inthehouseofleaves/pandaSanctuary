@@ -1,0 +1,81 @@
+// FONT
+
+$baseFont: 'Barlow', sans-serif;
+$fancyFont: 'Offside', cursive;
+$lightBackground: #D6F1E4;
+$darkBackground: #213C28;
+$lightFont: #FFFFFF;
+$mediumFont: #116500;
+$accent: #2C2D2C;
+
+// UNIVERSAL
+
+* {
+  margin: 0;
+  padding: 0
+}
+
+.wrapper {
+  margin: 0 auto;
+  width: 90%;
+  max-width: 1200px;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+// PSD QUALIFICATIONS
+
+h1 {
+  line-height: 63.7px;
+  font-size: 68.8px;
+  letter-spacing: 0.8px;
+  font-family: $baseFont;
+  font-weight: lighter;
+  margin: 0;
+}
+
+h2, h3 {
+  font-family: $fancyFont;
+  text-align: center;
+}
+
+h4 {
+  font-family: $fancyFont;
+}
+
+nav {
+  font-family: $baseFont;
+  line-height: 29px;
+}
+
+body {
+  font-family: $baseFont;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.2px;
+}
+
+.logo {
+  font-family: $fancyFont;
+  line-height: 20px;
+}
+
+button {
+  font-family: $fancyFont;
+  font-size: 20px;
+  text-align: center;
+  line-height: 29px;
+  padding: 0.3rem 0.5rem;
+  border: none;
+  text-transform: uppercase;
+  &:hover,
+  &:focus {
+    color: $accent;
+  }
+}

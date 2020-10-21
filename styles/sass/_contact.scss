@@ -1,0 +1,51 @@
+// CONTACT
+
+.contact {
+  background-color: $darkBackground;
+  padding: 5rem 0;
+  color: $lightFont;
+  text-align: left;
+  .contactContainer {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  // SUBSCRIBE
+  .subscribe {
+    width: 50%;
+  }
+  .subscribe p {
+    margin: 0.5rem 0;
+  }
+  form {
+    display: flex;
+  }
+  input {
+    width: 75%;
+    padding-left: 1rem;
+  }
+  button {
+    width: 25%;
+    background-color: $accent;
+    color: $lightFont;
+  }
+
+  // CONTACT INFO
+  .contactInfo {
+    width: 30%;
+  }
+  .contactInfo p:nth-of-type(1) {
+    margin-top: 0.5rem;
+  }
+
+  // NAV
+  nav {
+    width: 10%;
+    text-align: right;
+  }
+  a {
+    color: $lightFont;
+    font-family: $fancyFont;
+    text-transform: lowercase;
+  }
+}

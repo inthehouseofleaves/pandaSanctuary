@@ -1,0 +1,42 @@
+// ABOUT
+
+.about {
+  padding: 5rem 0;
+  background-color: $lightBackground;
+  .aboutGallery,
+  .aboutText {
+    display: flex;
+  }
+  .aboutGallery {
+    margin: 5rem 0;
+  }
+  .imgContainer,
+  .aboutImage {
+    background-image: url(../assets/small-box@2x.png);
+    background-size: cover;
+    background-position: center;
+    width: calc(100vw / 3);
+    height: calc(100vw / 4);
+    margin-right: 2rem;
+  }
+  .imgContainer:nth-child(1) {
+    background-image: url(../assets/gallery-image-1@2x.png);
+  }
+  .imgContainer:nth-child(2) {
+    background-image: url(../assets/gallery-image-2@2x.png);
+  }
+  .imgContainer:nth-child(3) {
+    background-image: url(../assets/gallery-image-3@2x.png);
+    margin-right: 0;
+  }
+  .more {
+    width: 90%;
+  }
+  p {
+    margin: 2rem 0;
+  }
+  button {
+    background-color: $mediumFont;
+    color: $lightFont;
+  }
+}

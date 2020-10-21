@@ -1,0 +1,14 @@
+// FOOTER 
+
+footer {
+  background-color: $accent;
+  text-align: center;
+  padding: 0.5rem;
+  li {
+    list-style-type: none;
+  }
+  a {
+    text-decoration: none;
+    color: $lightFont;
+  }
+}

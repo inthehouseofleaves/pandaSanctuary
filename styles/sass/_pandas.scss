@@ -1,0 +1,40 @@
+// MEET OUR PANDAS
+
+.meetOurPandas {
+  background-color: $darkBackground;
+  display: flex;
+  flex-direction: column;
+  color: $lightFont;
+  .sectionOne,
+  .sectionTwo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .info,
+  .pandaPhoto {
+    width: 50%;
+  }
+  .info {
+    padding: 0 5%;
+  }
+  .pandaPhoto {
+    background-size: cover;
+    background-position: center;
+    height: calc(100vw / 2);
+  }
+  p {
+    margin: 1.5rem 0;
+  }
+  button {
+    color: $mediumFont;
+    background-color: white;
+  }
+  .sectionOne .pandaPhoto {
+    background-image: url(../assets/pascal-muller-4-eaj-iu-uxg-aq-unsplash@2x.png); 
+  }
+  .sectionTwo .pandaPhoto {
+    background-image: url(../assets/debbie-molle-6-dsid-8-ey-9-u-unsplash-1@2x.png);
+  }
+}
