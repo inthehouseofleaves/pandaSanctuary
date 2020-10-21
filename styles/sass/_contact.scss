@@ -28,6 +28,10 @@
     width: 25%;
     background-color: $accent;
     color: $lightFont;
+    &:hover,
+    &focus {
+      background-color: $mediumFont;
+    }
   }
 
   // CONTACT INFO
@@ -47,5 +51,9 @@
     color: $lightFont;
     font-family: $fancyFont;
     text-transform: lowercase;
+    &:hover,
+    &focus {
+      color: $accent;
+    }
   }
 }

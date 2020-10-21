@@ -30,6 +30,10 @@
   button {
     color: $mediumFont;
     background-color: white;
+    &:hover,
+    &focus {
+      background-color: $accent;
+    }
   }
   .sectionOne .pandaPhoto {
     background-image: url(../assets/pascal-muller-4-eaj-iu-uxg-aq-unsplash@2x.png); 

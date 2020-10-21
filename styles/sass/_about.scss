@@ -38,5 +38,9 @@
   button {
     background-color: $mediumFont;
     color: $lightFont;
+    &:hover,
+    &:focus {
+      background-color: $accent;
+    }
   }
 }

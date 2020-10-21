@@ -299,10 +299,6 @@ button {
   text-transform: uppercase;
 }
 
-button:hover, button:focus {
-  color: #2C2D2C;
-}
-
 header {
   background-image: url(../assets/header-image.png);
   background-size: cover;
@@ -434,6 +430,10 @@ header i {
   color: #FFFFFF;
 }
 
+.about button:hover, .about button:focus {
+  background-color: #2C2D2C;
+}
+
 .meetOurPandas {
   background-color: #213C28;
   display: -webkit-box;
@@ -485,6 +485,10 @@ header i {
 .meetOurPandas button {
   color: #116500;
   background-color: white;
+}
+
+.meetOurPandas button:hover, .meetOurPandas buttonfocus {
+  background-color: #2C2D2C;
 }
 
 .meetOurPandas .sectionOne .pandaPhoto {
@@ -566,6 +570,10 @@ header i {
   color: #FFFFFF;
 }
 
+.contact button:hover, .contact buttonfocus {
+  background-color: #116500;
+}
+
 .contact .contactInfo {
   width: 30%;
 }
@@ -583,6 +591,10 @@ header i {
   color: #FFFFFF;
   font-family: "Offside", cursive;
   text-transform: lowercase;
+}
+
+.contact a:hover, .contact afocus {
+  color: #2C2D2C;
 }
 
 footer {
