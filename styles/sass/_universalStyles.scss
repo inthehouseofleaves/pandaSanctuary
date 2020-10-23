@@ -41,12 +41,14 @@ h1 {
 }
 
 h2, h3 {
+  font-size: 42px;
   font-family: $fancyFont;
   text-align: center;
 }
 
 h4 {
   font-family: $fancyFont;
+  font-size: 29px;
 }
 
 nav {
@@ -74,4 +76,50 @@ button {
   padding: 0.3rem 0.5rem;
   border: none;
   text-transform: uppercase;
+}
+
+
+@media (max-width: 800px) {
+  h2 {
+    margin-bottom: 3.5rem;
+  }
+  h2, h3 {
+    font-size: 35px;
+  }
+  .buttonContainer {
+    display: flex;
+    justify-content: center;
+  }
+  button {
+    padding: 1rem 2rem;
+  }
+}
+
+@media (max-width: 500px){
+  h1 {
+    font-size: 40px;
+    line-height: 45px;
+  }
+  h2 {
+    margin-bottom: 3rem;
+  }
+  h2, h3 {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 370px){
+  h1 {
+    font-size: 30px;
+    line-height: 35px;
+  }
+  h2 {
+    margin-bottom: 3rem;
+  }
+  h2, h3 {
+    font-size: 22px;
+  }
+  button {
+    font-size: 17px;
+  }
 }

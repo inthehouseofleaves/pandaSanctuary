@@ -42,3 +42,33 @@
     background-image: url(../assets/debbie-molle-6-dsid-8-ey-9-u-unsplash-1@2x.png);
   }
 }
+
+@media (max-width: 800px){
+  .meetOurPandas {
+    .sectionOne,
+    .sectionTwo {
+      display: flex;
+    }
+    .sectionOne {
+      flex-direction: column-reverse;
+    }
+    .sectionTwo {
+      flex-direction: column;
+    }
+    .info,
+    .pandaPhoto {
+      width: 100%;
+    }
+    .info {
+      padding: 5rem 5%;
+    }
+  }
+}
+
+@media (max-width: 500px){
+  .meetOurPandas {
+    .info {
+      padding: 3rem 5%;
+    }
+  }
+}

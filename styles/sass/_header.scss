@@ -57,3 +57,20 @@ header {
     margin-top: 0.5rem;
   }
 }
+
+@media (max-width: 800px){
+
+  header {
+    height: 50vh;
+    
+      .socials {
+        display: none;
+      }
+      h1 {
+        width: 55%;
+      }
+      li {
+        display: none;
+      }
+  }
+}

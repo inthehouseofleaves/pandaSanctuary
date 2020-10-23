@@ -3,12 +3,12 @@
 .about {
   padding: 5rem 0;
   background-color: $lightBackground;
+  h2 {
+    color: $mediumFont;
+  }
   .aboutGallery,
   .aboutText {
     display: flex;
-  }
-  .aboutGallery {
-    margin: 5rem 0;
   }
   .imgContainer,
   .aboutImage {
@@ -41,6 +41,61 @@
     &:hover,
     &:focus {
       background-color: $accent;
+    }
+  }
+}
+
+@media (max-width: 800px){
+  .about {
+    .aboutImage {
+      display: none;
+    }
+    .aboutGallery {
+      flex-wrap: wrap;
+      justify-content: space-between;
+      margin: 0;
+    }
+    .imgContainer {
+      margin: 0;
+      width: calc(100vw / 2 - 3.5rem);
+      height: calc(100vw / 2 - 3.5rem)
+    }
+    .imgContainer:nth-child(3) {
+      width: 100vw;
+      height: 100vw;
+      margin: 5rem 0;
+    }
+    .aboutText {
+      width: 100%;
+    }
+    .more {
+      width: 100%;
+      margin: 0;
+      padding: 0;
+    }
+  }
+}
+
+@media (max-width: 500px){
+  .about {
+    padding: 3rem 0;
+    .imgContainer {
+      width: calc(100vw / 2 - 2rem);
+      height: calc(100vw / 2 - 2rem)
+    }
+    .imgContainer:nth-child(3){
+      width: 100vw;
+      height: 100vw;
+      margin: 3rem 0;
+    }
+  }
+}
+
+@media (max-width: 370px){
+  .about {
+    .imgContainer {
+      width: calc(100vw / 2 - 1.5rem);
+      height: calc(100vw / 2 - 1.5rem)
     }
   }
 }

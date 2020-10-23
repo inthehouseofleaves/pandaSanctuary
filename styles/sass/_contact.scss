@@ -24,8 +24,11 @@
     width: 75%;
     padding-left: 1rem;
   }
-  button {
+  .buttonContainer {
     width: 25%;
+  }
+  button {
+    border: none;
     background-color: $accent;
     color: $lightFont;
     &:hover,
@@ -54,6 +57,67 @@
     &:hover,
     &focus {
       color: $accent;
+    }
+  }
+}
+
+@media (max-width: 800px){
+  .contact {
+    .contactContainer {
+      flex-wrap: wrap;
+    }
+    .subscribe {
+      width: 100%;
+      text-align: center;
+    }
+    form {
+      width: 100%;
+      flex-wrap: wrap;
+      display: flex;
+      justify-content: center;
+    }
+    form input {
+      width: 100%;
+      text-align: center;
+      padding: 1rem;
+      margin: 1rem 0;
+    }
+    .buttonContainer {
+      width: 100%;
+    }
+    .contactInfo,
+    nav {
+      margin-top: 2rem;
+    }
+    .contactInfo {
+      width: 70%;
+    }
+    nav {
+      width: 30%;
+      text-align: right;
+    }
+    a {
+      font-size: 29px;
+    }
+  }
+}
+
+@media (max-width: 500px){
+  .contact {
+    padding: 3rem 0;
+    h4, a {
+      font-size: 25px;
+    }
+  }
+}
+
+@media (max-width: 370px){
+  .contact {
+    h4, a {
+      font-size: 20px;
+    }
+    p {
+      font-size: 16px;
     }
   }
 }

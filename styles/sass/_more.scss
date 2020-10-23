@@ -18,5 +18,45 @@
   }
   i {
     color: $accent;
+    font-size: 500px;
+  }
+}
+
+@media (max-width: 800px){
+  .more {
+    .moreContainer {
+      display: flex;
+      flex-direction: column;
+    }
+    span:nth-child(-n+2){
+      margin-bottom: 5rem
+    }
+    i {
+      font-size: 3rem;
+      padding: 1rem 0;
+    }
+  }
+}
+
+@media (max-width: 500px){
+  .more {
+    padding: 3rem;
+    span:nth-child(-n+2){
+      margin-bottom: 3rem
+    }
+    i {
+      font-size: 3rem;
+    }
+  }
+}
+
+@media (max-width: 370px){
+  .more {
+    span:nth-child(-n+2){
+      margin-bottom: 1.5rem
+    }
+    i {
+      font-size: 2rem;
+    }
   }
 }
