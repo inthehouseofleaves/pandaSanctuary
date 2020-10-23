@@ -10,6 +10,9 @@
   .aboutText {
     display: flex;
   }
+  .aboutGallery {
+    margin: 5rem 0;
+  }
   .imgContainer,
   .aboutImage {
     background-image: url(../assets/small-box@2x.png);
@@ -45,6 +48,8 @@
   }
 }
 
+// TABLET
+
 @media (max-width: 800px){
   .about {
     .aboutImage {
@@ -76,6 +81,8 @@
   }
 }
 
+// PHONE (LARGE)
+
 @media (max-width: 500px){
   .about {
     padding: 3rem 0;
@@ -90,6 +97,8 @@
     }
   }
 }
+
+// PHONE (SMALL)
 
 @media (max-width: 370px){
   .about {

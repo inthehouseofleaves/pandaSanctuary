@@ -460,6 +460,10 @@ header i {
   display: flex;
 }
 
+.about .aboutGallery {
+  margin: 5rem 0;
+}
+
 .about .imgContainer,
 .about .aboutImage {
   background-image: url(../assets/small-box@2x.png);
@@ -655,7 +659,7 @@ header i {
 
 .more {
   background-color: #D6F1E4;
-  padding: 5rem 0;
+  padding: 5rem 0 7rem 0;
 }
 
 .more .moreContainer {
@@ -681,7 +685,8 @@ header i {
 
 .more i {
   color: #2C2D2C;
-  font-size: 500px;
+  font-size: 42px;
+  margin: 1rem 0;
 }
 
 @media (max-width: 800px) {
@@ -694,8 +699,8 @@ header i {
         -ms-flex-direction: column;
             flex-direction: column;
   }
-  .more span:nth-child(-n+2) {
-    margin-bottom: 5rem;
+  .more span {
+    margin-bottom: 2rem;
   }
   .more i {
     font-size: 3rem;
@@ -707,8 +712,8 @@ header i {
   .more {
     padding: 3rem;
   }
-  .more span:nth-child(-n+2) {
-    margin-bottom: 3rem;
+  .more span {
+    margin-bottom: 2rem;
   }
   .more i {
     font-size: 3rem;
@@ -716,7 +721,7 @@ header i {
 }
 
 @media (max-width: 370px) {
-  .more span:nth-child(-n+2) {
+  .more span {
     margin-bottom: 1.5rem;
   }
   .more i {
